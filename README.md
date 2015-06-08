@@ -21,9 +21,11 @@ None.
 Example Playbook
 ----------------
 
+```
 - hosts: servers
   roles:
     - { role: bitmotive.ansible-role-epel, tags: "epel,common" }
+```
 
 License
 -------
