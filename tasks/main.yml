@@ -1,7 +1,7 @@
 ---
 # tasks file for ansible-role-epel
 
-- name: epel | add the EPEL GPG key
+- name: Add the EPEL GPG key
   copy: >
     src=etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6_0608B895.txt 
     dest=/etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-6
@@ -11,7 +11,7 @@
   tags: 
     - epel
 
-- name: epel | add the EPEL repository
+- name: Add the EPEL repository
   copy: >
     src=etc/yum.repos.d/epel.repo
     dest=/etc/yum.repos.d/epel.repo
