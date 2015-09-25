@@ -1,3 +1,11 @@
+DEPRECATED ROLE
+=========
+
+This role has been deprecated. Those who wish to use EPEL simply need to run: `yum install epel-release`.
+
+http://fedoraproject.org/wiki/EPEL
+
+
 ansible-role-epel
 =========
 
